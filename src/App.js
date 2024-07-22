@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react';
+import { Analytics } from "@vercel/analytics/react"
 import { useDropzone } from 'react-dropzone';
 import Papa from 'papaparse';
 import { MapContainer, TileLayer, CircleMarker, Marker, Popup, Polygon } from 'react-leaflet';
