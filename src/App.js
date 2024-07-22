@@ -237,7 +237,7 @@ const App = () => {
       <h1 className="text-2xl font-bold mb-4">CSV to H3</h1>
       <div className="mb-4">
         <p>Upload a CSV file containing <b>lat</b> and <b>lon</b> columns to visualize the data on a map. H3 cells will be calculated for each point, and you can adjust the tile resolution to select the tile you'd like appended to your records or the appropriate level of aggregation.</p>
-        <p class="mt-4 mb-6">This tool is by <a href="https://www.dbreunig.com/" class="underline decoration-1 decoration-slate-200 underline-offset-4 hover:decoration-2 hover:decoration-blue-400 cursor-pointer">Drew Breunig</a>. <a href="https://www.dbreunig.com/contact.html" class="underline decoration-1 decoration-slate-200 underline-offset-4 hover:decoration-2 hover:decoration-blue-400 cursor-pointer">Shoot me a note</a> if you have questions or comments.</p>
+        <p className="mt-4 mb-6">This tool is by <a href="https://www.dbreunig.com/" className="underline decoration-1 decoration-slate-200 underline-offset-4 hover:decoration-2 hover:decoration-blue-400 cursor-pointer">Drew Breunig</a>. <a href="https://www.dbreunig.com/contact.html" className="underline decoration-1 decoration-slate-200 underline-offset-4 hover:decoration-2 hover:decoration-blue-400 cursor-pointer">Shoot me a note</a> if you have questions or comments.</p>
       </div>
       <div {...getRootProps()} className="border-2 border-dashed border-gray-300 p-4 mb-4 cursor-pointer">
         <input {...getInputProps()} />
