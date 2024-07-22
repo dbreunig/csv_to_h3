@@ -1,4 +1,4 @@
-# CSV H3 Tool
+# CSV 2 H3
 
 This is a lightweight tool for enriching a CSV with [H3][h3] tile IDs, at a user specified resolution, with or without each row's original coordinates.
 
