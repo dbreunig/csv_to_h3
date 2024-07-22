@@ -320,6 +320,7 @@ const App = () => {
             </>
           )}
           <H3CellStatsReport data={csvData} resolution={h3Resolution} />
+          <Analytics/>
         </>
       )}
     </div>
