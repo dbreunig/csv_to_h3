@@ -235,6 +235,7 @@ const App = () => {
 
   return (
     <div className="p-4">
+      <Analytics/>
       <h1 className="text-2xl font-bold mb-4">CSV 2 H3</h1>
       <div className="mb-4">
         <p>Upload a CSV file containing <b>lat</b> and <b>lon</b> columns to visualize the data on a map. H3 cells will be calculated for each point, and you can adjust the tile resolution to select the tile you'd like appended to your records or the appropriate level of aggregation.</p>
@@ -320,7 +321,6 @@ const App = () => {
             </>
           )}
           <H3CellStatsReport data={csvData} resolution={h3Resolution} />
-          <Analytics/>
         </>
       )}
     </div>
